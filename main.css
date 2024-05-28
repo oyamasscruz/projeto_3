@@ -1,0 +1,156 @@
+.navbar {
+    background-color: #556b2f;
+    position: sticky;
+}
+
+.nav .nav-link.active {
+    background-color: white;
+    color: #556b2f;
+}
+
+section {
+    background-color: #c6e78b;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+
+h1, h2, h3 {
+    font-family: "Poetsen One", sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #556b2f;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+}
+
+.card-img-top {
+    width: 544px;
+    height: 306px;
+}
+
+h2 span,
+h3 span {
+    color: #556b2f;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tab-content .card img {
+    height: 150px;
+}
+
+h3 i {
+    color: #556b2f;
+}
+
+#contact .col-md-5 li {
+    margin-top: 20px;
+    display: inline;
+    list-style: none;
+}
+
+#contact .col-md-5 ul a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #556b2f;
+}
+
+#contact p {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.col-md-5 h3 {
+    margin-top: 20px;
+}
+
+.col-md-7 button {
+    margin-top: 10px;
+    background-color: #556b2f;
+    color: #fff;
+    font-weight: bold;
+}
+
+.col-md-7 button:hover {
+    background-color: #fff;
+    color: #556b2f;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #home h2 {
+        margin-top: 20px;
+    }
+
+    #products .card {
+        width: 100%;
+    }
+
+    .card-img-top {
+        height: 280px;
+        width: 100%;
+    }
+
+    #products .col {
+        padding-bottom: 48px;
+    }
+    
+    #services .col-md-2 {
+        padding: 20px;
+    }
+
+    .nav.nav-pills {
+        display:block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #products .card {
+        width: 100%;
+    }
+
+    .card-img-top {
+        height: 280px;
+        width: 100%;
+    }
+
+    .col-md-2 {
+        padding: 0;
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+}
